@@ -1,6 +1,6 @@
 # Next GPT-4V
 
-A simple chat app with vision using [Next.js](https://nextjs.org/), [Vercel AI SDK](https://github.com/vercel/ai), and [GPT-4V](https://platform.openai.com/docs/guides/vision).
+Emma's simple chat app with vision using [Next.js](https://nextjs.org/), [Vercel AI SDK](https://github.com/vercel/ai), and [GPT-4V](https://platform.openai.com/docs/guides/vision).
 
 ![Next GPT-4V](nextjs-gpt4v.png)
 
