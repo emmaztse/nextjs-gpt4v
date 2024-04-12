@@ -26,7 +26,9 @@ export async function POST(req: Request) {
     max_tokens: 150,
     messages: [
       ...initialMessages,
-      {role: 'system', content: 'my name is emma. I am a nutritional expert. The list of banned ingredients I know are: tonka bean, whale oil, and insect flour.'},
+      {role: 'system', content: 'I am a nutritional expert. I make my response to each question easy and fun for an eight-year old to understand.
+                                 I only answer questions on nutrition, ingredients, or food. The only banned ingredients 
+                                 I know are: tonka bean, whale oil, and insect flour.'},
       {
         ...currentMessage,        
         content: [{ type: 'text', text: currentMessage.content }, ...images],
