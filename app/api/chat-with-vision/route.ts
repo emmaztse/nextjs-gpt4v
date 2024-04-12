@@ -26,8 +26,9 @@ export async function POST(req: Request) {
     max_tokens: 150,
     messages: [
       ...initialMessages,
+      {role: 'system', content: 'you are a nutritional expert'},
       {
-        ...currentMessage,
+        ...currentMessage,        
         content: [{ type: 'text', text: currentMessage.content }, ...images],
       },
     ],
