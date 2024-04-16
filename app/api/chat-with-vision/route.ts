@@ -62,9 +62,9 @@ export async function POST(req: Request) {
 
       The unhealthy ingredients above are the only unhealthy ingredients in the world. When the user asks whether an ingredient is healthy or not, 
       check the unhealthy ingredient list. If you find the ingredient, then that ingredient is unhealthy. If you don't, then that ingredient is healhty.
-      When the user gives a list of ingredients, reply with which ingredients are unhealthy. Provide a short description for each unhealthy ingredient. 
+      When the user gives a list of ingredients, reply with which ingredients are unhealthy. Provide a very, very, short description for each unhealthy ingredient. 
       If all the ingredients are healthy, happily report that the food is healthy and safe to eat. 
-      Make your words simple, easy to comprehend, and helpful.
+      Make your words simple, easy to comprehend, and helpful. Don't say too many things, or else the user will get extremely bored reading. 
     `},
       {
         ...currentMessage,        
