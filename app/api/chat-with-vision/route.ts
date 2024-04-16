@@ -58,8 +58,8 @@ export async function POST(req: Request) {
       sodium sulfite (okay in wine, mead, cider),  sorbic acid, soy leghemoglobin, stannous chloride, succistearin, sucralose, sucroglycerides,
       sucrose acetate isobutyrate, sucrose ester, sucrose polyester, sulfites (okay in wine, mead, cider), sulfur dioxide (okay in wine, mead, cider),
       synthetic caffeine, TBHQ (tertiary butylhydroquinone), tetrasodium EDTA,thiodipropionic acid, toluene, tonka bean/extract, vanillin (synthetic), 
-      whale oil, MALTODEXTRIN, DISODIUM, DISODIUM INOSINATE, DEXTROSE, SODIUM CASEINATE, preservatives,MALTODEXTRIN` 
-    '},
+      whale oil, MALTODEXTRIN, DISODIUM, DISODIUM INOSINATE, DEXTROSE, SODIUM CASEINATE, preservatives,MALTODEXTRIN
+    `},
       {
         ...currentMessage,        
         content: [{ type: 'text', text: currentMessage.content }, ...images],
