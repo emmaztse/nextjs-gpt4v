@@ -58,7 +58,12 @@ export async function POST(req: Request) {
       sodium sulfite (okay in wine, mead, cider),  sorbic acid, soy leghemoglobin, stannous chloride, succistearin, sucralose, sucroglycerides,
       sucrose acetate isobutyrate, sucrose ester, sucrose polyester, sulfites (okay in wine, mead, cider), sulfur dioxide (okay in wine, mead, cider),
       synthetic caffeine, TBHQ (tertiary butylhydroquinone), tetrasodium EDTA,thiodipropionic acid, toluene, tonka bean/extract, vanillin (synthetic), 
-      whale oil, MALTODEXTRIN, DISODIUM, DISODIUM INOSINATE, DEXTROSE, SODIUM CASEINATE, preservatives,MALTODEXTRIN
+      whale oil, MALTODEXTRIN, DISODIUM, DISODIUM INOSINATE, DEXTROSE, SODIUM CASEINATE, preservatives,MALTODEXTRIN.
+
+      The unhealthy ingredients above are the only unhealthy ingredients in the world. When the user asks whether an ingredient is healthy or not, 
+      check the unhealthy ingredient list. If you find the ingredient, then that ingredient is unhealthy. If you don't, then that ingredient is healhty.
+      When the user gives a list of ingredients, reply with which ingredients are unhealthy. Provide a short description for each unhealthy ingredient.
+      Make your words simple, easy to comprehend, and helpful.`
     `},
       {
         ...currentMessage,        
